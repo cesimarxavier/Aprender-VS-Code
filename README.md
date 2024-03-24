@@ -1,63 +1,63 @@
-# Learn-VS-Code
+# Aprenda-VS-Code
 
-![Learn VS Code Cover Image](./images/cover.png)
+![Imagem de Capa do Aprenda VS Code](./images/cover.png)
 
-***Head over to [Learn VS Code](https://www.learnvscode.com) to learn everything you need to know about the most popular editor in Web Development***
+***Visite [Aprenda VS Code](https://www.learnvscode.com) para aprender tudo o que você precisa saber sobre o editor mais popular em Desenvolvimento Web***
 
-In just a few years, Visual Studio Code has become the most popular editor for Web Development. In short, it is open source, cross-platform, full of functionality, and has an amazing community behind it. Many of the biggest names in Web Development have already made the switch, and so should you! If you're looking to learn the ins and outs of VS Code while increasing your efficiency and proficiency as developer, this course is perfect for you. Whether you're brand new to Web Development or a seasoned veteran, there's something for everyone.
+Em apenas alguns anos, o Visual Studio Code se tornou o editor mais popular para Desenvolvimento Web. Resumidamente, ele é de código aberto, multiplataforma, cheio de funcionalidades e tem uma comunidade incrível por trás dele. Muitos dos maiores nomes em Desenvolvimento Web já fizeram a troca, e você também deveria! Se você está procurando aprender os detalhes do VS Code enquanto aumenta sua eficiência e proficiência como desenvolvedor, este curso é perfeito para você. Seja você completamente novo em Desenvolvimento Web ou um veterano experiente, há algo para todos.
 
-> Shortcut references will use ctrlCmd to represent the control key on Windows and the Command key on Mac.  If the shortcuts on Windows vs. Mac are different, they will be separated by the '|' character, with Mac coming first.
+> As referências de atalhos usarão ctrlCmd para representar a tecla de controle no Windows e a tecla Command no Mac. Se os atalhos no Windows vs. Mac forem diferentes, eles serão separados pelo caractere '|', com o Mac vindo primeiro.
 
-## Sample Projects to use During Demos
+## Projetos de Exemplo para usar Durante as Demonstrações
 
-- Build a Quiz App with HTML, CSS, and JavaScript - https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
-- Design and Build a Chat Application with Socket.io - https://github.com/jamesqquick/Design-and-Build-a-Chat-Application-with-Socket.io
-- Color Lighten/Darken Tools - https://github.com/jamesqquick/lighten-darken-color-tool
+- Construa um App de Quiz com HTML, CSS e JavaScript - https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
+- Desenhe e Construa um Aplicativo de Chat com Socket.io - https://github.com/jamesqquick/Design-and-Build-a-Chat-Application-with-Socket.io
+- Ferramentas de Clarear/Escurecer Cores - https://github.com/jamesqquick/lighten-darken-color-tool
 
-## 1. [Getting Started](./sections/GettingStarted.md)
+## 1. [Introdução](./sections/GettingStarted.md)
 
-In this section, we will discuss available resources, the what and why behind VS Code, and how to download and install.
+Nesta seção, discutiremos os recursos disponíveis, o que e por que por trás do VS Code, e como baixar e instalar.
 
-[Learn more](./sections/LayoutsAndShortcuts.md)
+[Aprenda mais](./sections/LayoutsAndShortcuts.md)
 
-## 2. [Layouts and Shortcuts](./sections/LayoutsAndShortcuts.md)
+## 2. [Layouts e Atalhos](./sections/LayoutsAndShortcuts.md)
 
-In this section, we will open VS Code for the first and explore the layout.  We will explore various shortcuts for customizing your layout, working with files, manipulating text, and more.
+Nesta seção, abriremos o VS Code pela primeira vez e exploraremos o layout. Exploraremos vários atalhos para personalizar seu layout, trabalhar com arquivos, manipular texto e mais.
 
-[Learn more](./sections/LayoutsAndShortcuts.md)
+[Aprenda mais](./sections/LayoutsAndShortcuts.md)
 
-## 3. [Customization](./sections/Customization.md)
+## 3. [Personalização](./sections/Customization.md)
 
-In this section, we will explore how to customize your editor through keymaps/shortcuts, settings, extensions, and themes!
+Nesta seção, exploraremos como personalizar seu editor através de keymaps/atalhos, configurações, extensões e temas!
 
-[Learn more](./sections/Customization.md)
+[Aprenda mais](./sections/Customization.md)
 
-## 4. [Writing and Formatting Code](./sections/WritingAndFormattingCode.md)
+## 4. [Escrevendo e Formatando Código](./sections/WritingAndFormattingCode.md)
 
-In this section, we learn how to create snippets, work with Markdown documents, organize code, format code, and lint code.
+Nesta seção, aprenderemos a criar snippets, trabalhar com documentos Markdown, organizar código, formatar código e lintar código.
 
-[Learn more](./sections/WritingAndFormattingCode.md)
+[Aprenda mais](./sections/WritingAndFormattingCode.md)
 
-## 6. [Integrated Terminal](./sections/IntegratedTerminal.md)
+## 6. [Terminal Integrado](./sections/IntegratedTerminal.md)
 
-In this section, we will learn how to use and customize the integrated terminal.
+Nesta seção, aprenderemos como usar e personalizar o terminal integrado.
 
-[Learn more](./sections/IntegratedTerminal.md)
+[Aprenda mais](./sections/IntegratedTerminal.md)
 
-## 7. [Working With Git](./sections/WorkingWithGit.md)
+## 7. [Trabalhando Com Git](./sections/WorkingWithGit.md)
 
-In this section, we will learn how to take advantage of the built in tooling for Git as well as useful extensions for working with Git as well.
+Nesta seção, aprenderemos como aproveitar as ferramentas integradas para Git, bem como extensões úteis para trabalhar com Git também.
 
-[Learn more](./sections/WorkingWithGit.md)
+[Aprenda mais](./sections/WorkingWithGit.md)
 
-## 8. [Debugging](./sections/Debugging.md)
+## 8. [Depuração](./sections/Debugging.md)
 
-In this section, we will learn how to debug front-end JavaScript and back-end JavaScript as well as Angular, React, and Vue applications.
+Nesta seção, aprenderemos como depurar JavaScript front-end e back-end, bem como aplicações Angular, React e Vue.
 
-[Learn more](./sections/Debugging.md)
+[Aprenda mais](./sections/Debugging.md)
 
 ## 9. [Extras](./sections/Extras.md)
 
-In this section, we will learn about extra misc. features of VS code.
+Nesta seção, aprenderemos sobre recursos extras diversos do VS Code.
 
-[Learn more](./sections/Extras.md)
+[Aprenda mais](./sections/Extras.md)
