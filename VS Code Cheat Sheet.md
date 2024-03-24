@@ -73,4 +73,160 @@ O Visual Studio Code é o editor mais popular para Desenvolvimento Web, e aprend
 Emmet fornece snippets abreviados para gerar HTML e CSS.
 
 - [Emmet IO](https://emmet.io/)
-- [Folha de Dicas do Emmet](https://docs.emmet
+- [Folha de Dicas do Emmet](https://docs.emmet)
+- [Folha de Dicas do Emmet para HTML](https://github.com/jamesqquick/emmet-html-snippets-cheatsheet)
+
+## Personalização
+
+- **ctrlCmd + K ctrlCmd + S** – editor de atalhos
+- **ctrlCmd + ,** - editor de configurações
+
+> Quer uma fonte GRATUITA e bonita com ligaduras de fonte para o seu código? Confira [Fira Code](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
+
+### Extensões Úteis
+
+- [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
+- [Colorizador de Par de Chaves](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [Depurador para Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+- [Trechos de Código JavaScript ES6](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+- [Custo de Importação](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+- [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+- [Destaque TODO](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+- [Sincronização de Configurações](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+- [Extensão Prettier](https://prettier.io/)
+- [Extensão ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Extensão Editor Config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
+- [Comentários Melhores](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+- [Ícones do VS Code](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
+- [Sincronização de Configurações](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+
+### Temas Incríveis
+
+- [Cobalt 2](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
+- [Coruja Noturna](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
+- [O Inverno Está Chegando](https://marketplace.visualstudio.com/items?itemName=johnpapa.winteriscoming)
+- [Tons de Roxo](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)
+- [Um Escuro Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
+- [Dracula Oficial](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+- [Tema Material](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+- [Rainglow](https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow)
+
+## Escrevendo e Formatando Código
+
+### Trabalhando com Markdown
+
+**ctrlCmd + Shift + V** – abrir pré-visualização de markdown
+**Cmd + Shift + K V | Ctrl + K + V** – abrir pré-visualização de markdown lado a lado
+
+#### Extensões Úteis
+- [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [Atalhos Markdown](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts)
+- [TOC Markdown](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)
+
+#### Recursos para Aprender Markdown
+
+[Template de ReadMe](https://github.com/jamesqquick/read-me-template)
+[Folha de Exercícios de Markdown](https://github.com/jamesqquick/markdown-worksheet)
+
+### Formatando Código
+
+- **Shift + Alt + F –** formatar documento
+- [Extensão Editor Config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [Extensão Prettier](https://prettier.io/)
+- [Extensão ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+## Depuração
+
+[Extensão Depurador para Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+
+#### Depuração frontend JavaScript
+
+
+```json
+{
+    "type": "chrome",
+    "request": "launch",
+    "name": "Launch Chrome against localhost",
+    "url": "http://localhost:8080",
+    "webRoot": "${workspaceFolder}"
+}
+```
+
+
+#### Debug Configurations for Server Side JavaScript (Node.js)
+
+
+Launch Node (replace program with your server file)
+
+```json
+{
+    "type": "node",
+    "request": "launch",
+    "name": "Launch Program",
+    "program": "${workspaceFolder}/app.js"
+}
+```
+
+Attach to Process (you will need to run your application first with `node --inspect server.js`)
+
+```json
+{
+    "type": "node",
+    "request": "attach",
+    "name": "Attach by Process ID",
+    "processId": "${command:PickProcess}"
+}
+```
+
+Attach to Port (you will need to run your application first with `node --inspect server.js`)
+
+```json
+{
+    "type": "node",
+    "request": "attach",
+    "name": "Attach",
+    "port": 9229
+}
+```
+
+Attach to Port using Nodemon (you will need to run your application first with `nodemon --inspect server.js`)
+
+```json
+{
+    "type": "node",
+    "request": "attach",
+    "name": "Attach",
+    "port": 9229,
+    "restart": true
+}
+```
+
+#### Debugging Angular CLI Applications   
+
+```json
+{
+    "type": "chrome",
+    "request": "launch",
+    "name": "Launch Chrome against localhost for Angular",
+    "url": "http://localhost:4200",
+    "webRoot": "${workspaceFolder}"
+}
+```
+
+#### Debugging Create React App Applications
+
+```json
+{
+    "type": "chrome",
+    "request": "launch",
+    "name": "Launch Chrome against localhost for React",
+    "url": "http://localhost:3000",
+    "webRoot": "${workspaceFolder}/src"
+}
+```
+
+
+
+
